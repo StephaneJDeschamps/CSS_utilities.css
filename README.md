@@ -7,31 +7,19 @@ This file content:
 1- Reset (modified)
 
 2- Global (content preferences and specified class)
-
 | - Box-sizing & Fonts
-
 | - Links
-
 | - Cursors & Carets
-
 | - Médias
-
 | - Transitions
-
 | - Textarea
-
 | - Text
-
+| - 
 3- Miscellaneous (content specified class)
-
 | - Margin
-
 | - Clear
-
 | - Hide and seek
-
 | - Sroll
-
 | - 
 
 
