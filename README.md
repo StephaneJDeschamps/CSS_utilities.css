@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-MIT-blueviolet.svg&style=flat)](https://github.com/StephaneJDeschamps/CSS_utilities/blob/master/LICENSE.txt)
-[![Version](https://img.shields.io/badge/Version-v2.1.0-9cf.svg?logo=CSS3&logoColor=9cf&style=flat)]
-[![Last commit](https://img.shields.io/github/last-commit/StephaneJDeschamps/CSS_utilities.svg&style=flat)]
+<img alt="Dernière version" src="https://img.shields.io/badge/Version-v2.1.0-9cf.svg?logo=CSS3&logoColor=9cf">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/StephaneJDeschamps/CSS_utilities.svg?logo=git&logoColor=green">
 
 # CSS_utilities
 CSS file using a modified reset, my style preferences and various useful classes.
