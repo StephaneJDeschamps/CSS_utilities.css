@@ -1,6 +1,7 @@
 # CSS_utilities
 CSS file using a modified reset, my style preferences and various useful classes.
-It evolves over time...
+
+Tested and functional on Chrome, Firefox and Edge. It evolves over time...
 
 This file content:
 
