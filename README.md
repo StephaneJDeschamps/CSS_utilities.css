@@ -1,13 +1,15 @@
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https: //github.com/StephaneJDeschamps/CSS_utilities/blob/master/LICENSE)
+
 # CSS_utilities
 CSS file using a modified reset, my style preferences and various useful classes.
 
 Tested and functional on Chrome, Firefox and Edge. It evolves over time...
 
-This file content:
+## This file content:
 
-1 - Reset (modified)
+#### 1 - Reset (modified)
 
-2 - Global (content preferences and specified class)
+#### 2 - Global (content preferences and specified class)
  - Box-sizing & Fonts
  - Links
  - Cursors & Carets
@@ -16,12 +18,15 @@ This file content:
  - Textarea
  - Text
  - 
-3 - Miscellaneous (content specified class)
+#### 3 - Miscellaneous (content specified class)
  - Margin
  - Clear
  - Hide and seek
  - Sroll
  - 
 
+## License
+
+[MIT](https: //github.com/StephaneJDeschamps/CSS_utilities/blob/master/LICENSE).
 
 
