@@ -1,8 +1,8 @@
 [![License](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://github.com/StephaneJDeschamps/CSS_utilities.css/blob/master/LICENSE)
-<img alt="Version" src="https://img.shields.io/badge/Version-v2.1.0-9cf.svg">
+<img alt="Version" src="https://img.shields.io/badge/Version-v2.1.1-9cf.svg">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/StephaneJDeschamps/CSS_utilities.css.svg?logo=git&logoColor=green">
 
-# CSS_utilities
+# CSS_utilities.css
 CSS file using a reset stylsheet, my style preferences and various predefined useful classes.
 
 ## What it does
@@ -23,9 +23,10 @@ CSS file using a reset stylsheet, my style preferences and various predefined us
 ## Usage
  <p>Include <code>CSS_utilities.css</code> in the <code>head</code> of your HTML file before your main stylesheet.</p>
 
-## This file content:
+## This file currently contains:
 #### 1 - Reset CSS
- Based on <a href="https://meyerweb.com/eric/tools/css/reset/">Eric Meyer's reset</a> (modified by removing obsolete elements in html5 and readjusting some pseudo-elements for css3)
+ Based on <a href="https://meyerweb.com/eric/tools/css/reset/">Eric Meyer's reset</a>
+ (modified by removing obsolete elements in html5 and readjusting some pseudo-elements for css3)
 
 #### 2 - Global (content preferences and specified classes)
  - Box-sizing & Fonts
