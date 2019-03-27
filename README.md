@@ -1,17 +1,33 @@
-[![License](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://github.com/StephaneJDeschamps/CSS_utilities/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://github.com/StephaneJDeschamps/CSS_utilities.css/blob/master/LICENSE)
 <img alt="Version" src="https://img.shields.io/badge/Version-v2.1.0-9cf.svg">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/StephaneJDeschamps/CSS_utilities.svg?logo=git&logoColor=green">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/StephaneJDeschamps/CSS_utilities.css.svg?logo=git&logoColor=green">
 
 # CSS_utilities
-CSS file using a modified reset, my style preferences and various useful classes.
+CSS file using a reset stylsheet, my style preferences and various predefined useful classes.
 
-Tested and functional on Chrome, Firefox and Edge. It evolves over time...
+## What it does
+ - Ensures consistency between browsers
+ - Resets spacing (margin/padding), border & font
+ - Adjustment of the box-sizing with border-box for all elements
+ - Adjustment of the font-size so that 1rem = 10px
+ - Adjustment of the font-size & line-height at 1.6rem
+ - Adjustment of the font & cursor preferences
+ - contains a library of predefined useful classes
+
+## Browser support
+ - Chrome
+ - Firefox
+ - Edge
+ - Opera
+
+## Usage
+ <p>Include <code>CSS_utilities.css</code> in the <code>head</code> of your HTML file before your main stylesheet.</p>
 
 ## This file content:
+#### 1 - Reset CSS
+ Based on <a href="https://meyerweb.com/eric/tools/css/reset/">Eric Meyer's reset</a> (modified by removing obsolete elements in html5 and readjusting some pseudo-elements for css3)
 
-#### 1 - Reset (modified)
-
-#### 2 - Global (content preferences and specified class)
+#### 2 - Global (content preferences and specified classes)
  - Box-sizing & Fonts
  - Links
  - Cursors & Carets
@@ -19,8 +35,6 @@ Tested and functional on Chrome, Firefox and Edge. It evolves over time...
  - Transitions
  - Textarea
  - Text
- - 
-#### 3 - Miscellaneous (content specified class)
  - Margin
  - Clear
  - Hide and seek
@@ -28,7 +42,5 @@ Tested and functional on Chrome, Firefox and Edge. It evolves over time...
  - 
 
 ## License
-
 [MIT License](https://github.com/StephaneJDeschamps/CSS_utilities/blob/master/LICENSE.txt)
-
 

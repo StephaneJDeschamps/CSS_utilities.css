@@ -1,8 +1,8 @@
 /*!
-* CSS_utilities.css v2.1.0(march, 22 2018)
+* CSS_utilities.css v2.1.1(march 27, 2019)
 * @author:
 * Stephane J Deschamps (https://github.com/StephaneJDeschamps) 
-* MIT License: https://github.com/StephaneJDeschamps/CSS_utilities/blob/master/LICENSE
+* MIT License: https://github.com/StephaneJDeschamps/CSS_utilities.css/blob/master/LICENSE
 *
 * http://meyerweb.com/eric/tools/css/reset/
    v2.0 (modified) | 20110126
@@ -10,10 +10,9 @@
  */
 
 /* -------- Content -------- */
-
 /* 
 1- Reset (modified)
-2- Global (content preferences and specified class)
+2- Global (content preferences and specific classes)
 | - Box-sizing & Fonts
 | - Links
 | - Cursors & Carets
@@ -21,24 +20,19 @@
 | - Transitions
 | - Textarea
 | - Text
-3- Miscellaneous (content specified class)
 | - Margin
 | - Clear
-| - Hide and seek
+| - hide, seek & opacity
 | - Sroll
-| - 
-| - 
 | - 
 */
 
-/* ------------------------- */
-
-/* ********Reset CSS******** */
+/* ********Reset CSS (modified)******** */
+/* remove obsolete API "applet, acronym, big, strike, tt, center" */
 html,
 body,
 div,
 span,
-applet,
 object,
 iframe,
 h1,
@@ -52,9 +46,7 @@ blockquote,
 pre,
 a,
 abbr,
-acronym,
 address,
-big,
 cite,
 code,
 del,
@@ -67,16 +59,13 @@ q,
 s,
 samp,
 small,
-strike,
 strong,
 sub,
 sup,
-tt,
 var,
 b,
 u,
 i,
-center,
 dl,
 dt,
 dd,
@@ -118,16 +107,14 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers (add "dialog")*/
 article,
 aside,
 details,
-/* add "dialog" */
 dialog,
 figcaption,
 figure,
@@ -150,7 +137,7 @@ q {
   quotes: none;
 }
 
-/* :before, :after == Readjusted for css3 (::before, ::after) */
+/* Readjusted for css3 ":before & :after" == ::before & ::after (to distinguish pseudo-classes from pseudo-elements) */
 blockquote::before,
 blockquote::after,
 q::before,
@@ -164,8 +151,6 @@ table {
   border-spacing: 0;
 }
 
-/* ------------------------- */
-
 /* ********Global_preferences*********** */
 
 /* Box-sizing & Fonts */
@@ -175,7 +160,7 @@ table {
 }
 
 html {
-  /* Adjustment of the font size so that 1rem = 10px */
+  /* Adjustment of the font-size so that 1rem = 10px */
   font-size: 62.5%;
 }
 
@@ -204,6 +189,10 @@ a:active {
   cursor: pointer;
 }
 
+a:visited {
+  color: hsl(0, 0%, 85%);
+}
+
 /* Cursors & Caret */
 button,
 [type="button"],
@@ -217,10 +206,18 @@ button,
   cursor: pointer;
 }
 
-abbr,
+abbr[title],
 .cursor-help,
 [type="search"] {
   cursor: help;
+}
+
+.cursor-grab {
+  cursor: grab;
+}
+
+.cursor-grab:focus {
+  cursor: grabbing;
 }
 
 .no-cursor {
@@ -253,7 +250,7 @@ img {
   max-width: 100%;
 }
 
-/* Simples transitions */
+/* Simple transitions */
 /* Apply to all changed properties */
 .fast-transition {
   transition: all 0.5s;
@@ -290,6 +287,36 @@ textarea {
   text-align: justify;
 }
 
+.txt-transform-cap {
+  text-transform: capitalize;
+}
+
+.txt-transform-upper {
+  text-transform: uppercase;
+}
+
+.txt-transform-lower {
+  text-transform: lowercase;
+}
+
+.txt-transform-none {
+  text-transform: none;
+}
+
+.txt-indent-5 {
+  text-indent: 5%;
+}
+
+.txt-indent-10 {
+  text-indent: 10%;
+}
+
+.txt-indent-15 {
+  text-indent: 15%;
+}
+
+b,
+strong,
 .bold {
   font-weight: bold;
 }
@@ -297,8 +324,6 @@ textarea {
 .italic {
   font-style: italic;
 }
-
-/* ********Miscellaneous*********** */
 
 /* Margin */
 .container {
@@ -316,13 +341,25 @@ textarea {
   visibility: hidden;
 }
 
-/* hide-and-seek */
+/* hide, seek & opacity */
 .hidden {
   visibility: hidden;
 }
 
 .visible {
   visibility: visible;
+}
+
+.opacity-light {
+  opacity: 0.2;
+}
+
+.opacity-medium {
+  opacity: 0.5;
+}
+
+.opacity-strong {
+  opacity: 0.8;
 }
 
 /* Scroll */
