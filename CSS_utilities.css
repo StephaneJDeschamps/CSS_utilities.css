@@ -189,10 +189,6 @@ a:active {
   cursor: pointer;
 }
 
-a:visited {
-  color: hsl(0, 0%, 85%);
-}
-
 /* Cursors & Caret */
 button,
 [type="button"],
