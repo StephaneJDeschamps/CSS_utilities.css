@@ -38,7 +38,7 @@ CSS file using a reset stylsheet, my style preferences and various predefined us
  - Text
  - Margin
  - Clear
- - Hide and seek
+ - hide, seek & opacity
  - Sroll
  - 
 
