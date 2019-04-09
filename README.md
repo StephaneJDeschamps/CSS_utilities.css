@@ -23,7 +23,7 @@ CSS file using a reset stylsheet, my style preferences and various predefined us
 ## Usage
  <p>Include <code>CSS_utilities.css</code> in the <code>head</code> of your HTML file before your main stylesheet.</p>
 
-## This file currently contains:
+## This file currently contains :
 #### 1 - Reset CSS
  Based on <a href="https://meyerweb.com/eric/tools/css/reset/">Eric Meyer's reset</a>
  (modified by removing obsolete elements in html5 and readjusting some pseudo-elements for css3)
@@ -36,7 +36,7 @@ CSS file using a reset stylsheet, my style preferences and various predefined us
  - Transitions
  - Textarea
  - Text
- - Margin <img alt="Update" src="https://img.shields.io/badge/UPDATE-add%20classes-orange.svg">
+ - Margin <img alt="Update" src="https://img.shields.io/badge/UPDATE-add%20class-orange.svg">
  - Padding <img alt="New" src="https://img.shields.io/badge/NEW-add%20classes-red.svg">
  - Width <img alt="New" src="https://img.shields.io/badge/NEW-add%20classes-red.svg">
  - Clear
