@@ -1,5 +1,5 @@
 /*!
-* CSS_utilities.css v2.1.1(march 27, 2019)
+* CSS_utilities.css v2.1.2(april 09, 2019)
 * @author:
 * Stephane J Deschamps (https://github.com/StephaneJDeschamps) 
 * MIT License: https://github.com/StephaneJDeschamps/CSS_utilities.css/blob/master/LICENSE
@@ -21,6 +21,8 @@
 | - Textarea
 | - Text
 | - Margin
+| - Padding
+| - Width
 | - Clear
 | - hide, seek & opacity
 | - Sroll
@@ -189,10 +191,6 @@ a:active {
   cursor: pointer;
 }
 
-a:visited {
-  color: hsl(0, 0%, 85%);
-}
-
 /* Cursors & Caret */
 button,
 [type="button"],
@@ -248,6 +246,15 @@ abbr[title],
 /* Medias */
 img {
   max-width: 100%;
+}
+
+.thumbnail {
+  width: 100px;
+  margin: 0.5rem;
+  padding: 0.15rem;
+  vertical-align: middle;
+  border: 1px solid hsla(255, 2%, 40%, 0.5);
+  background-color: hsl(0, 0%, 100%);
 }
 
 /* Simple transitions */
@@ -329,6 +336,100 @@ strong,
 .container {
   /* Allows to center the contents */
   margin: 0 auto;
+}
+
+.m0 {
+  margin: 0;
+}
+
+/* Padding */
+.pad0 {
+  padding: 0;
+}
+
+/* Width */
+.wauto {
+  width: auto;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w95 {
+  width: 95%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w85 {
+  width: 85%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w65 {
+  width: 65%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w55 {
+  width: 55%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w45 {
+  width: 45%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w35 {
+  width: 35%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w15 {
+  width: 15%;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w5 {
+  width: 5%;
 }
 
 /* Clear */

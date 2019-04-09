@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://github.com/StephaneJDeschamps/CSS_utilities.css/blob/master/LICENSE)
-<img alt="Version" src="https://img.shields.io/badge/Version-v2.1.1-9cf.svg">
+<img alt="Version" src="https://img.shields.io/badge/Version-v2.1.2-9cf.svg">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/StephaneJDeschamps/CSS_utilities.css.svg?logo=git&logoColor=green">
 
 # CSS_utilities.css
@@ -36,9 +36,11 @@ CSS file using a reset stylsheet, my style preferences and various predefined us
  - Transitions
  - Textarea
  - Text
- - Margin
+ - Margin <img alt="Update" src="https://img.shields.io/badge/UPDATE-add%20classes-orange.svg">
+ - Padding <img alt="New" src="https://img.shields.io/badge/NEW-add%20classes-red.svg">
+ - Width <img alt="New" src="https://img.shields.io/badge/NEW-add%20classes-red.svg">
  - Clear
- - Hide and seek
+ - hide, seek & opacity
  - Sroll
  - 
 
