@@ -1,5 +1,5 @@
 /*!
-* CSS_utilities.css v2.1.2(april 09, 2019)
+* CSS_utilities.css v2.1.3(august 20, 2019)
 * @author:
 * Stephane J Deschamps (https://github.com/StephaneJDeschamps) 
 * MIT License: https://github.com/StephaneJDeschamps/CSS_utilities.css/blob/master/LICENSE
@@ -23,6 +23,7 @@
 | - Margin
 | - Padding
 | - Width
+| - Align
 | - Clear
 | - hide, seek & opacity
 | - Sroll
@@ -246,6 +247,7 @@ abbr[title],
 /* Medias */
 img {
   max-width: 100%;
+  vertical-align: middle;
 }
 
 .thumbnail {
@@ -272,12 +274,21 @@ img {
 }
 
 /* Textarea */
-/* Allows to resize only Vertically */
+/* Allows to resize only vertically and auto overflow */
 textarea {
   resize: vertical;
+  overflow: auto;
 }
 
 /* Text */
+.txt-small {
+  font-size: small;
+}
+
+.txt-Xsmall {
+  font-size: x-small;
+}
+
 .txt-left {
   text-align: left;
 }
@@ -322,6 +333,10 @@ textarea {
   text-indent: 15%;
 }
 
+.txt-indent-20 {
+  text-indent: 20%;
+}
+
 b,
 strong,
 .bold {
@@ -350,6 +365,10 @@ strong,
 /* Width */
 .wauto {
   width: auto;
+}
+
+.wfit {
+  width: fit-content;
 }
 
 .w100 {
@@ -408,6 +427,10 @@ strong,
   width: 35%;
 }
 
+.w33 {
+  width: 33%;
+}
+
 .w30 {
   width: 30%;
 }
@@ -430,6 +453,25 @@ strong,
 
 .w5 {
   width: 5%;
+}
+
+/* Align */
+.align-top {
+  vertical-align: top;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.align-baseline-middle {
+  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
+  vertical-align: -moz-middle-with-baseline;
+}
+
+.align-bottom {
+  vertical-align: bottom;
 }
 
 /* Clear */

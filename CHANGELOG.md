@@ -1,5 +1,8 @@
 # Changes to CSS_utilities.css
 
+#### v2.1.3 (august 20, 2019)
+ - add new specified classes for :"align", "text" & "width"
+
 #### v2.1.2 (april 09, 2019)
  - add new specified classes for :"medias", "margin", "padding" & "width"
 
