@@ -35,10 +35,11 @@ CSS file using a reset stylsheet, my style preferences and various predefined us
  - Médias
  - Transitions
  - Textarea
- - Text
- - Margin <img alt="Update" src="https://img.shields.io/badge/UPDATE-add%20class-orange.svg">
- - Padding <img alt="New" src="https://img.shields.io/badge/NEW-add%20class-red.svg">
- - Width <img alt="New" src="https://img.shields.io/badge/NEW-add%20classes-red.svg">
+ - Text <img alt="Update" src="https://img.shields.io/badge/UPDATE-add%20class-orange.svg">
+ - Margin 
+ - Padding 
+ - Width <img alt="Update" src="https://img.shields.io/badge/UPDATE-add%20class-orange.svg">
+ - Align <img alt="New" src="https://img.shields.io/badge/NEW-add%20class-red.svg">
  - Clear
  - hide, seek & opacity
  - Sroll
