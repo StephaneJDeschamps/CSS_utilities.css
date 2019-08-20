@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://github.com/StephaneJDeschamps/CSS_utilities.css/blob/master/LICENSE)
-<img alt="Version" src="https://img.shields.io/badge/Version-v2.1.2-9cf.svg">
+<img alt="Version" src="https://img.shields.io/badge/Version-v2.1.3-9cf.svg">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/StephaneJDeschamps/CSS_utilities.css.svg?logo=git&logoColor=green">
 
 # CSS_utilities.css
